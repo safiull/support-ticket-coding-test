@@ -1,0 +1,256 @@
+.jconfirm-title-c .bx {
+    font-size: 3.5rem;
+}
+.image-preview {
+    display: block;
+    width: 100%;
+    height: 115px;
+    border: 3px rgb(222, 216, 216) dotted;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+}
+
+.card {
+    border: 0;
+    border-top: 2px solid #696cff;
+}
+
+.uploader-column .multiple-uploader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 115px;
+    border: 3px rgb(222, 216, 216) dotted;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.uploader-column .mup-msg {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uploader-column .mup-msg span {
+    margin-bottom: 10px;
+}
+
+.uploader-column .mup-msg .mup-main-msg {
+    color: #737373;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.uploader-column .mup-msg .mup-msg {
+    color: #737373;
+}
+
+.uploader-column .image-container {
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    cursor: auto;
+    pointer-events: unset;
+}
+
+.uploader-column .image-container:before {
+    z-index: 3;
+    content: "\2716";
+    align-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #e50000;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.uploader-column .image-preview {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+}
+
+.uploader-column .image-size {
+    position: absolute;
+    z-index: 1;
+    height: 120px;
+    width: 120px;
+    backdrop-filter: blur(4px);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    opacity: 0;
+    pointer-events: unset;
+}
+
+.uploader-column .image-size:hover {
+    opacity: 1;
+}
+
+.uploader-column .exceeded-size {
+    position: absolute;
+    z-index: 2;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    color: white;
+    background: rgba(255, 0, 0, 0.6);
+    pointer-events: unset;
+}
+
+.right.ticket-content {
+    width: 100% !important;
+    text-align: right;
+}
+
+.right .ticket-description {
+    text-align: right;
+    display: block;
+}
+
+.right .ticket-header,
+.right .ticket-header {
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right .ticket-sender-picture {
+    /* width: 70px !important; */
+    margin-left: 5px;
+    margin-right: 0 !important;
+}
+
+@media only screen and (min-width: 576px) {
+    .page-item .page-link {
+        border-radius: 50%;
+    }
+}
+
+/* 1.34 Ticket */
+.tickets-list .ticket-item {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tickets-list .ticket-item.ticket-more {
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.tickets-list .ticket-item .ticket-title h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tickets .ticket-items .ticket-item {
+    display: inline-block;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.tickets .ticket-items .ticket-item:hover {
+    background-color: rgba(63, 82, 227, 0.03);
+}
+
+.tickets .ticket-items .ticket-item:hover .ticket-title {
+    color: #6777ef;
+}
+
+.tickets .ticket-items .ticket-item.active {
+    padding: 10px 5px;
+    background-image: linear-gradient(80deg, #5f61e6, #8384e6);
+    border-bottom: none;
+}
+
+.tickets .ticket-items .ticket-item.active .ticket-title,
+.tickets .ticket-items .ticket-item.active .ticket-desc {
+    color: #fff !important;
+}
+
+.tickets .ticket-items .ticket-item .ticket-title h4 {
+    font-size: 13px;
+}
+
+.tickets .ticket-items .ticket-item .ticket-title h4 .badge {
+    padding: 7px 10px;
+    margin-left: 5px;
+}
+
+.tickets .ticket-items .ticket-item .ticket-desc {
+    display: flex;
+    font-size: 11px;
+    font-weight: 500;
+    color: #34395e;
+}
+
+.tickets .ticket-content .ticket-header .ticket-sender-picture {
+    border-radius: 3px;
+}
+
+.tickets .ticket-divider {
+    height: 1px;
+    width: 100%;
+    display: inline-block;
+    background-color: #f2f2f2;
+}
+
+.tickets .active h6,
+.tickets .active p {
+    color: #fff;
+}
+
+.tickets .text-white {
+    color: #000;
+}
+
+.table-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.my-message {
+    background-image: linear-gradient(80deg, #5f61e6, #8384e6);
+    padding: 5px 15px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+.incoming-message {
+    background-image: linear-gradient(80deg, #faecec, #fbeeee);
+    padding: 5px 15px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    color: #000;
+    display: inline-block;
+}

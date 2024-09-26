@@ -1,0 +1,24 @@
+use** Pending tasks
+
+Admin Panel
+6. Payout Approve & Reject System
+*. Frontend Dynamic
+*. Add demo data into seeder
+*. Countdown isn't complete
+3. Support module isn't complete
+*. Pricing Plan Add kora lagbe
+*. Dashboard is not dynamic
+
+User Panel
+4. Kyc Verification Isn't complete
+5. Payout system is not complete
+*. Countdown isn't complete
+2. Support module isn't complete
+7. Transaction list isn't complete
+8. Earning Logs is not complete
+*. Pricing plan purchase korar option lagbe
+*. Dashboard is not dynamic
+
+Frontend
+1. Frontend design isn't not ready
+2. Frontend should be dynamic
